@@ -11,7 +11,7 @@ spec:
     namespace: app4
   source:
     path   : "HelmCharts/MyChart2"
-    repoURL: "git@github.com:danil0900/argocd1.git"
+    repoURL: "git@github.com:arfeoktistov/argocd.git"
     targetRevision: HEAD
     helm:
       valueFiles:
@@ -26,4 +26,4 @@ spec:
       prune   : true
       selfHeal: true
     syncOptions:
-      - CreateNamespace=true
+      - CreateNamespace=true   
