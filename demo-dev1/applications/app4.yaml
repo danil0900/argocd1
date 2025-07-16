@@ -26,4 +26,4 @@ spec:
       prune   : true
       selfHeal: true
     syncOptions:
-      - CreateNamespace=true   vboxuser@ubuntu:~/argocd/demo_prod/applications$
+      - CreateNamespace=true
