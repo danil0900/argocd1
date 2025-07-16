@@ -1,6 +1,11 @@
 # Default Values for my Helm Chart
 
-container:
-  image: temson13/temson13
+containers:
+- name: main
+  image: nginx
+  port: 8080
 
+- name: nginx
+  image: nginx
+  port: 80
 replicaCount: 1
