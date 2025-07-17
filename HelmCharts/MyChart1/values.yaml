@@ -2,10 +2,5 @@
 
 containers:
 - name: main
-  image: nginx
+  image: temson13/temson13
   port: 8080
-
-- name: nginx
-  image: nginx
-  port: 80
-replicaCount: 1
